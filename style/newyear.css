@@ -1,0 +1,31 @@
+
+.banner-img{
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #080116 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.text-overlay {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    background: linear-gradient(180deg, #080116 20%, rgba(7, 2, 17, 0.00) 100%);
+}
+.NYPC{
+    font-size: 80px;
+}
+
+.discount {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
