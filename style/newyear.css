@@ -311,3 +311,36 @@ textarea {
     line-height: normal;
     text-transform: capitalize;
 }
+
+footer{
+    background: #070211;
+}
+.contact {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 300px 0px 300px;
+}
+
+
+.address{
+    width: 375px;
+    height: 80px;
+}
+
+.unsubscribe {
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
