@@ -8,16 +8,18 @@
 }
 .text-overlay {
     position: absolute;
-    top: 20%;
+    top: 17%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
     font-size: 32px;
-    background: linear-gradient(180deg, #080116 20%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(180deg, #080116 40%, rgba(7, 2, 17, 0.00) 100%);
 }
 .NYPC{
     font-size: 80px;
+    text-align: center;
+    width: 632px;
 }
 
 .discount {
@@ -28,4 +30,85 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.deals {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.allcat {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nyp {
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 50px auto;
+}
+
+.welcome {
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url('../images/Vectorrr.png');
+    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-mid{
+
+}
+
+.welcome-msg {
+    width: 642px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+    padding: 100px 552px 0px 126px ;
+}
+
+.welcome-des {
+    width: 697px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0px 39px 0px 126px;
+    /* 166.667% */
+}
+
+
+.join-button{
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    background-color: transparent;
+    padding: 50px 1059px 142px 158px;
 }
