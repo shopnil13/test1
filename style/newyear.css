@@ -242,7 +242,7 @@
     color: rgba(7, 2, 17, 0.60);
     text-align: center;
     font-family: Inter;
-    font-size: 23px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 32px;
@@ -266,6 +266,48 @@
     /* 160% */
 }
 
+table{
+    margin: 50px auto;
+    padding: 5px 0px 0px 0px;
+}
+
 td{
     padding: 10px;
+}
+
+.sub{
+    background-color: rgba(255, 0, 0, 0.10);
+    margin: 50px auto;
+    width: 1320px;
+    height: 616px;
+    text-align: center;
+}
+
+.subform input,
+textarea {
+    border: none;
+    background: #FFF;
+    padding: 18px 35px;
+    border-radius: 50px 0px 0px 50px;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.subform button {
+    background: #F00;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 0px 50px 50px 0px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
 }
