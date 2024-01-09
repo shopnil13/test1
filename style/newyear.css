@@ -115,7 +115,7 @@
 }
 
 .yearnum {
-    background-color: transparent;
+    background-blend-mode: multiply;
     padding: 0.008px 0px 0px 0px;
 }
 
@@ -245,6 +245,23 @@
     font-size: 23px;
     font-style: normal;
     font-weight: 500;
+    line-height: 32px;
+    /* 160% */
+}
+
+
+.Portfolio{
+    margin: 50px auto;
+    width: 1320px;
+    height: 482px;
+}
+.Portfoliodesc {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 32px;
     /* 160% */
 }
