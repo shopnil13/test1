@@ -265,3 +265,7 @@
     line-height: 32px;
     /* 160% */
 }
+
+td{
+    padding: 10px;
+}
