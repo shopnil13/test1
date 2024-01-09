@@ -8,13 +8,14 @@
 }
 .text-overlay {
     position: absolute;
-    top: 17%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
+    padding: 100px 338px 100px 338px;
     font-size: 32px;
-    background: linear-gradient(180deg, #080116 40%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(180deg, #080116 20%, rgba(7, 2, 17, 0.00) 100%);
 }
 .NYPC{
     font-size: 80px;
@@ -83,8 +84,8 @@
     font-weight: 900;
     line-height: 88px;
     /* 137.5% */
-    letter-spacing: 7.04px;
-    padding: 100px 0px 0px 126px ;
+    letter-spacing: 6px;
+    padding: 100px 0px 0px 130px ;
 }
 
 .welcome-des {
@@ -93,7 +94,7 @@
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 30px;
     padding: 0px 0px 0px 126px;
     /* 166.667% */
@@ -121,7 +122,7 @@
 .event-info {
     background-color: rgba(255, 0, 0, 0.10);
     margin: 50px auto;
-    width: 1320px;
+    width: 1125px;
     height: 482px;
     text-align: center;
     font-family: Inter;
@@ -147,4 +148,103 @@
     border:0;
     border-radius: 8px;
     background: #F00;
+}
+
+.craker{
+    display: flex;
+    margin: 50px auto;
+    width: 1320px;
+    height: 600px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.craker-left{
+    width: 393px;
+}
+
+.craker-right{
+    width: 276px;
+}
+
+.craker-right-head{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.craker-desc{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */ 
+}
+
+.new-offer {
+    color: #F00;
+    text-align: left;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.coming-soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.ellipse1{
+   width: 365x;
+   height: 365px;
+   border-radius: 365px;
+   border: 15px solid #F00;
+   padding: 40px;
+   display: flex;
+}
+
+.Holiday-sale {
+    width: 1068px;
+    height: 482px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.whatFunc{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.HSale {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.sale-desc {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    /* 160% */
 }
